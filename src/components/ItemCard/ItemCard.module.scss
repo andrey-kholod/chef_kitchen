@@ -1,0 +1,82 @@
+@import '/src/scss/variables.scss';
+
+p,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    cursor: pointer;
+    z-index: 0;
+    position: relative;
+    border-radius: 28px;
+    background: #FFF;
+    width: 215px;
+    flex-shrink: 0;
+    padding: 150px 18px 13px 18px;
+
+
+    h4 {
+        color: #000;
+        font-weight: 500;
+        line-height: 120%;
+        width: 166px;
+    }
+
+    p {
+        color: #0A0909;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 180%;
+    }
+
+    >img {
+        left: 2px;
+        top: 0;
+        position: absolute;
+    }
+}
+
+.title {
+    color: #000;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.id {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    text-transform: uppercase;
+    background-color: $accentYellow;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.meal {
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    color: $accentGreen;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+}

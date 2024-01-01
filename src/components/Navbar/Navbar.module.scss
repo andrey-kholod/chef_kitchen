@@ -1,0 +1,67 @@
+@import '/src/scss/variables.scss';
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 59px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+
+    li {
+        color: $mainGray;
+        font-weight: 500;
+        line-height: 100%;
+        transition: .3s ease-in;
+        border-bottom: 1px solid transparent;
+    }
+}
+
+.contacts {
+    font-weight: 700;
+    color: $mainGray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >div {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    >button {
+        font-weight: 700;
+        color: $white;
+    }
+}
+
+li:hover {
+    color: $accentGreen;
+    border-bottom: 1px solid $accentGreen;
+}
+
+.number {
+    margin-right: 37px;
+}
+
+.en {
+    margin-right: 50px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.logo_ul {
+    gap: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

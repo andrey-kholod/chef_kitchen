@@ -1,0 +1,63 @@
+@import '/src/scss/variables.scss';
+
+.board {
+    position: relative;
+    border-radius: 55px;
+    background: $accentGreen;
+    width: 100%;
+    height: 440px;
+    padding: 54px 0px 0px 102px;
+    margin-bottom: 175px;
+}
+
+.text {
+    margin: 0;
+    width: 400px;
+
+    p {
+        margin: 0;
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 59px;
+        margin-bottom: 20px;
+    }
+    
+    h3 {
+        margin: 0;
+        color: $white;
+        font-size: 65px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        line-height: 59px;
+    }
+    
+}
+
+.sheet {
+    position: absolute;
+    bottom: -140px;
+    left: -95px;
+}
+
+.wrapper {
+
+    overflow: hidden;
+}
+
+.plate {
+    width: calc(100% - 310px);
+    position: absolute;
+    top: 0;
+    right: -75px;
+    filter: drop-shadow(0px 9px 9px rgba(0,0,0,0.5));
+}
+
+.pipes {
+    width: 300px;
+    position: absolute;
+    right: -95px;
+    bottom: -160px;
+    filter: drop-shadow(0px 9px 2px rgba(0,0,0,0.11));
+}
